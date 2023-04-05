@@ -1,0 +1,71 @@
+/* Seletor de elementos HTML */
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+
+}
+
+/* Seletor de Elementos CLASS*/
+
+.menuprincipal{
+    background-color: rgba(0, 255, 255, 0.3);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Seletor de Elemento QUALQUER -> [x]*/
+
+/* Seletor de Elemento Pseudo-Classe x:x */
+
+p:hover{
+    color: rgb(128, 0, 0);
+
+}
+
+/* Seletor de Elemento Pseudo-Elemento x::x */
+
+p::first-letter{
+    font-size: xx-large;
+}
+
+/* SELETOR UNIVERSAL * */
+
+*{
+    margin: 0;
+
+}
+
+img{
+    display:block;
+
+}
+
+body{
+    background-image: url(47698.gif);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-size: 100%;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.1;
+    text-align: justify;
+
+}
+
+article{
+    padding: 10px;
+    display: inline-block;
+    width: calc(28% - 16px);
+    background-color: rgba(233, 250, 250, 0.375);
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+div{
+    margin: 15px;
+
+}
