@@ -1,0 +1,150 @@
+/* Componentes - Estruturais */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+header{
+    height: 150px;
+    padding: 10px;
+    background-image: url(Imagens/puc.jpg) no-repeat ;
+
+}
+
+main{
+    background-color: rgb(255, 247, 155);
+    width: 75%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1{
+    display: none;
+}
+
+aside{
+    background-color: rgb(255, 145, 145);
+    width: 25%;
+    float: left;    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+
+/* Componente - Menu Principal */
+
+.menuprincipal{
+    float: right;
+
+}
+
+.menuprincipal ul{
+    list-style-type: none;
+
+}
+
+.menuprincipal ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.menuprincipal ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(176, 20, 193);
+    padding: 10px;
+}
+
+.menuprincipal ul li a:hover{
+    background-color: rgb(255, 196, 0);
+}
+
+/* Componente - Posts */
+
+.post{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+
+}
+
+.post img{
+    display: block;
+    float: left;
+    width: 150px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+
+}
+
+.post h2{
+    font-size: 35px;
+
+}
+
+.post h3{
+    font-size: 25px;
+    color:rgb(90, 0, 0)
+
+}
+
+.post p{
+    font-size: 15px;
+    color: grey;
+
+}
+
+.post h3 span:nth-child(3){
+    color: aliceblue;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 5px 0;
+
+}
+
+/* Componente - Caixa de Pesquisa */
+
+.caixapesquisa{
+    margin-bottom: 30px;
+
+}  
+
+.caixapesquisa h5{
+    font-size: 20px;
+}
+
+
+/* Componente - Categorias*/
+
+.categoria ul{
+    list-style-type: none;
+
+}
+
+.categoria ul li{
+    margin-top: 8px;
+
+}
+
+
+.categoria ul li a{
+    color: red;
+    text-decoration: none;
+
+}
+
+.categoria ul li a:visited{
+    color: rgb(17, 0, 255);
+
+}
